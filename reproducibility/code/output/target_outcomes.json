@@ -1,0 +1,188 @@
+{
+  "description": "Selected single-switch policies; numerical estimates, not independent global optimality proofs.",
+  "absolute_final_time": 1000.0,
+  "post_entry_peak_window": 300.0,
+  "environment": {
+    "python": "3.11.5",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1"
+  },
+  "rows": [
+    {
+      "n": 2,
+      "beta": 0.4163625240325928,
+      "gamma": 0.11758241057395935,
+      "target": "Q",
+      "tau": 8.876343242076548,
+      "entry_time": 45.16608113181335,
+      "Q_entry": 0.010000000000000004,
+      "Y_entry": 0.008285043903551056,
+      "doses_at_entry": 0.16476432479300998,
+      "cumulative_incidence_t1000": 0.8065763458621331,
+      "Y_t1000": 7.184071183827305e-81,
+      "post_entry_peak_300": 0.008285043903551056,
+      "integration_state_error": 6.591949208711867e-17,
+      "mass_balance_error": 4.163336342344337e-16,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 0.0,
+        "cumulative_incidence_t1000": 9.992007221626409e-16,
+        "post_entry_peak_300": 3.469446951953614e-18
+      }
+    },
+    {
+      "n": 2,
+      "beta": 0.4163625240325928,
+      "gamma": 0.11758241057395935,
+      "target": "Y",
+      "tau": 8.164927433522703,
+      "entry_time": 44.10042821264178,
+      "Q_entry": 0.012137308562382687,
+      "Y_entry": 0.010000000000000009,
+      "doses_at_entry": 0.1810075847640686,
+      "cumulative_incidence_t1000": 0.7889167914676037,
+      "Y_t1000": 4.393180751741732e-80,
+      "post_entry_peak_300": 0.010000000000000009,
+      "integration_state_error": 2.7755575615628914e-17,
+      "mass_balance_error": 1.2490009027033011e-15,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 2.498001805406602e-16,
+        "cumulative_incidence_t1000": 2.55351295663786e-15,
+        "post_entry_peak_300": 1.214306433183765e-17
+      }
+    },
+    {
+      "n": 4,
+      "beta": 0.2922666668891907,
+      "gamma": 0.06820093095302582,
+      "target": "Q",
+      "tau": 13.734599029121442,
+      "entry_time": 59.95125167417849,
+      "Q_entry": 0.010000000000000012,
+      "Y_entry": 0.006664394416201906,
+      "doses_at_entry": 0.14258559782059133,
+      "cumulative_incidence_t1000": 0.8408540413183385,
+      "Y_t1000": 7.871997875547385e-79,
+      "post_entry_peak_300": 0.006664394416201906,
+      "integration_state_error": 4.336808689942018e-18,
+      "mass_balance_error": 3.3306690738754696e-16,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 8.326672684688674e-17,
+        "cumulative_incidence_t1000": 9.992007221626409e-16,
+        "post_entry_peak_300": 6.071532165918825e-18
+      }
+    },
+    {
+      "n": 4,
+      "beta": 0.2922666668891907,
+      "gamma": 0.06820093095302582,
+      "target": "Y",
+      "tau": 12.125467707818938,
+      "entry_time": 57.530533400483506,
+      "Q_entry": 0.01532685963741614,
+      "Y_entry": 0.010000000000000033,
+      "doses_at_entry": 0.17539315003184236,
+      "cumulative_incidence_t1000": 0.8068296164169675,
+      "Y_t1000": 4.114911580084013e-77,
+      "post_entry_peak_300": 0.010000000000000033,
+      "integration_state_error": 1.734723475976807e-17,
+      "mass_balance_error": 1.4988010832439613e-15,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 4.163336342344337e-16,
+        "cumulative_incidence_t1000": 8.881784197001252e-16,
+        "post_entry_peak_300": 1.734723475976807e-17
+      }
+    },
+    {
+      "n": 9,
+      "beta": 0.2720777988433838,
+      "gamma": 0.05967894196510315,
+      "target": "Q",
+      "tau": 17.107091720133063,
+      "entry_time": 59.74359036895449,
+      "Q_entry": 0.010000000000000012,
+      "Y_entry": 0.004364381625555606,
+      "doses_at_entry": 0.09378080843716652,
+      "cumulative_incidence_t1000": 0.891608318160903,
+      "Y_t1000": 5.769509562769735e-100,
+      "post_entry_peak_300": 0.004364381625555606,
+      "integration_state_error": 5.204170427930421e-18,
+      "mass_balance_error": 6.661338147750939e-16,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 5.551115123125783e-17,
+        "cumulative_incidence_t1000": 3.774758283725532e-15,
+        "post_entry_peak_300": 0.0
+      }
+    },
+    {
+      "n": 9,
+      "beta": 0.2720777988433838,
+      "gamma": 0.05967894196510315,
+      "target": "Y",
+      "tau": 15.104424227968726,
+      "entry_time": 55.94721753662255,
+      "Q_entry": 0.02372005611276113,
+      "Y_entry": 0.010000000000000002,
+      "doses_at_entry": 0.12665672863575073,
+      "cumulative_incidence_t1000": 0.8576630757450627,
+      "Y_t1000": 1.2138909394393565e-96,
+      "post_entry_peak_300": 0.010000000000000002,
+      "integration_state_error": 2.6020852139652106e-18,
+      "mass_balance_error": 5.551115123125783e-16,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 2.220446049250313e-16,
+        "cumulative_incidence_t1000": 3.219646771412954e-15,
+        "post_entry_peak_300": 1.3877787807814457e-17
+      }
+    },
+    {
+      "n": 19,
+      "beta": 0.26834726333618164,
+      "gamma": 0.05442754924297333,
+      "target": "Q",
+      "tau": 18.59202817380812,
+      "entry_time": 60.27926181245615,
+      "Q_entry": 0.009999999999999936,
+      "Y_entry": 0.002587867454996038,
+      "doses_at_entry": 0.06998702411306693,
+      "cumulative_incidence_t1000": 0.9170089390640398,
+      "Y_t1000": 8.81115950068334e-115,
+      "post_entry_peak_300": 0.002587867454996038,
+      "integration_state_error": 1.2576745200831851e-17,
+      "mass_balance_error": 4.718447854656915e-16,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 8.326672684688674e-17,
+        "cumulative_incidence_t1000": 2.9976021664879227e-15,
+        "post_entry_peak_300": 1.214306433183765e-17
+      }
+    },
+    {
+      "n": 19,
+      "beta": 0.26834726333618164,
+      "gamma": 0.05442754924297333,
+      "target": "Y",
+      "tau": 16.487758239798854,
+      "entry_time": 54.94413719755646,
+      "Q_entry": 0.04012445793833085,
+      "Y_entry": 0.009999999999999964,
+      "doses_at_entry": 0.09957940680612598,
+      "cumulative_incidence_t1000": 0.8865749805677092,
+      "Y_t1000": 4.9795321673064924e-110,
+      "post_entry_peak_300": 0.009999999999999964,
+      "integration_state_error": 2.0816681711721685e-17,
+      "mass_balance_error": 6.661338147750939e-16,
+      "tight_difference": {
+        "entry_time": 0.0,
+        "doses_at_entry": 3.0531133177191805e-16,
+        "cumulative_incidence_t1000": 1.4432899320127035e-15,
+        "post_entry_peak_300": 3.469446951953614e-17
+      }
+    }
+  ]
+}
